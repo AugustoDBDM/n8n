@@ -1,11 +1,11 @@
 application:
   name: n8n
-  project: CHANGEME
+  project: dbdmn8n
   publicly_accessible: true
 databases:
 - type: postgresql
   version: 12
-  name: my-postgresql-database
+  name: dbdmn8n-database
 routers:
 - name: main
   routes:
