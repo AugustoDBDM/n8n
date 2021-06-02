@@ -6,7 +6,7 @@ application:
   - name: "n8n"
     size: "20"
     type: "ssd"
-    mount_point: "/var/"
+    mount_point: "/mnt/n8n"
 databases:
 - type: postgresql
   version: 12
