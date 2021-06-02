@@ -2,6 +2,11 @@ application:
   name: n8n
   project: dbdmn8n
   publicly_accessible: true
+  storage:
+  - name: "n8n"
+    size: "20"
+    type: "ssd"
+    mount_point: "/"
 databases:
 - type: postgresql
   version: 12
