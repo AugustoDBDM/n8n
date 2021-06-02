@@ -3,10 +3,10 @@ application:
   project: dbdmn8n
   publicly_accessible: true
   storage:
-  - name: "n8n"
-    size: "20"
-    type: "ssd"
-    mount_point: "/mnt/n8n"
+  - name: data
+    size: 5
+    type: ssd
+    mount_point: /srv/app
 databases:
 - type: postgresql
   version: 12
