@@ -2,11 +2,11 @@ application:
   name: n8n
   project: dbdmn8n
   publicly_accessible: true
-  storage:
-  - name: data
-    size: 1GB
-    type: ssd
-    mount_point: /srv/app
+#  storage:
+#  - name: data
+#    size: 1GB
+#    type: ssd
+#    mount_point: /srv/app
 databases:
 - type: postgresql
   version: 12
